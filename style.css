@@ -15,8 +15,8 @@ img{max-width:100%;display:block}
 
 .header{position:sticky;top:0;z-index:50;background:rgba(255,250,240,.96);border-bottom:1px solid var(--line);backdrop-filter:blur(12px)}
 .header-inner{width:min(1280px,calc(100% - 48px));margin:auto;min-height:76px;display:flex;align-items:center;justify-content:space-between;gap:30px}
-.logo{display:flex;align-items:baseline;gap:6px;color:var(--green);font:600 2rem "Playfair Display",serif}
-.logo small{font:700 .85rem "DM Sans";color:var(--maroon)}
+.logo{display:flex;align-items:center;width:150px;height:78px;overflow:hidden}
+.logo img{display:block;width:150px;height:92px;object-fit:contain;object-position:center}
 .nav{display:flex;align-items:center;gap:24px;font-size:.9rem;font-weight:600}
 .nav a:hover{color:var(--maroon)}
 .nav .cta{background:var(--green);color:#fff;padding:10px 16px;border-radius:4px}
